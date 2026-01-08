@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 export default {
-    HOST: process.env.DB_HOST || "localhost",
+    HOST: process.env.DB_HOST || "db",
     USER: process.env.DB_USER || "root",
     PASSWORD: process.env.DB_PASSWORD || "",
     DB: process.env.DB_NAME || "testdb",
